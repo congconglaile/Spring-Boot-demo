@@ -29,7 +29,7 @@ public class CardService {
         card2.setCardId("6212****9835");
         card2.setLimit((float) 30000.00);
         card2.setMaxLimit((float) 40000.00);
-        card2.setName("Coles Rewards MasterCard");
+        card2.setName("VISA Card");
         card2.setNewLimit((float) 40000.00);
         list.add(card2);
         return list;
@@ -37,6 +37,8 @@ public class CardService {
 
     public void updateCard(Card card) {
         //TODO
+        //validate card
+        //update card
     }
 
 }
